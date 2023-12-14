@@ -1,0 +1,284 @@
+/* Google Fonts Lato */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+body{
+  font-family: 'Lato', sans-serif;
+  color: #aeafaf;
+}
+h1, h2, h3, h4, h5, h6{
+color: #2d3950;
+margin: 0;
+}
+a{
+  text-decoration: none;
+}
+/* ====Header Section====== */
+header{
+  padding: 20px 0;
+}
+/* =====Banner Section====== */
+.banner-section{
+  background: url(../images/banner.png) no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  padding: 250px 0 75px;
+
+}
+.banner-section h1{
+text-align: center;
+color: #fff;
+font-size: 120px;
+text-transform: uppercase;
+font-weight: 700;
+letter-spacing: 5px;
+}
+.banner-section .titel-separetor{
+  background: #15a4fa;
+  width: 50%;
+  height: 2px;
+  margin: 15px auto 30px;
+}
+.banner-section p{
+  color: #b4b5b9;
+  font-size: 18px;
+  text-align: center;
+}
+.banner-section .btn-call{
+  background: transparent;
+  width: 225px;
+  margin: 50px auto;
+  padding: 16px 40px;
+  border: 1px solid #15a4fa;
+  border-radius: 3px;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight:500;
+  display: block;
+  transition: all .3s ease-in-out;
+}
+.banner-section .btn-call:hover{
+  background-color: #15a4fa;
+}
+.banner-section .fa-angle-down{
+  margin-top: 175px;
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+  display: block;
+}
+
+/* =====About Section===== */
+.about-section{
+  background-color: #f6f9f9;
+  padding: 80px 0 50px;
+  text-align: center;
+}
+.about-section h2{
+  font-size: 40px;
+  margin-bottom: 35px;
+}
+.about-section p{
+  font-size: 20px;
+  line-height: 32px;
+}
+
+/* ======Features Section===== */
+.features-section{
+  padding: 35px 0 50px;
+  text-align: center;
+}
+.features-section img{
+  display: block;
+  margin: 36px auto;
+}
+.features-section h3{
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: 500;
+}
+.features-section p{
+  font-size: 18px;
+  line-height: 25px;
+  padding: 0 30px;
+}
+
+/* =======Portfolio Section====== */
+.portfolio-section{
+  padding: 20px 0 80px;
+  text-align: center;
+}
+.portfolio-section h2{
+  font-size: 42px;
+  margin-bottom: 30px;
+}
+.portfolio-section p{
+  font-size: 18px;
+  margin-bottom: 80px;
+}
+.item-box{
+  position: relative;
+  overflow: hidden;
+  margin: 15px 0;
+}
+.item-box img{
+  width: 100%;
+}
+.item-hover{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: rgba(74, 170, 246, 0.8);
+  top: 0;
+  left: -100%;
+  transition: all 0.4s ease-in-out;
+}
+.item-box:hover .item-hover{
+  left: 0;
+}
+.item-hover ul{
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  margin-top: 26%;
+}
+.item-hover ul li{
+  list-style: none;
+  display: inline;
+  margin: 0 8px;
+}
+.item-hover ul li i{
+  color: #fff;
+  width: 55px;
+  height: 55px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+}
+/* =======Support Section===== */
+.support-section{
+  background: url(../images/bg-form-1.png) no-repeat center;
+  background-size: cover;
+  padding: 35px 0 80px;
+}
+.support-section h2{
+  text-align: center;
+  font-size: 44px;
+  font-weight: 500;
+  color: #fff;
+}
+.support-section p{
+  text-align: center;
+  font-size: 16px;
+}
+.support-section .form-group{
+  width: 545px;
+}
+.support-section .form-control{
+  background: transparent;
+  padding: 20px;
+  border-radius: 3px;
+  border: 1px solid #999999;
+  color: #999999;
+}
+.support-section .checkbox{
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.support-section .btn-send{
+    background: transparent;
+    border: 2px solid #236ea2;
+    border-radius: 3px;
+    margin-top: 20px;
+    margin-left: 200px;
+    padding: 15px 60px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #999999;
+    transition: all .3s ease-in-out;
+}
+.support-section .btn-send:hover{
+  background: #236ea2;
+  border: 3px solid #999999;
+  color: #fff;
+
+}
+
+/* ======Footer Section===== */
+.footer-section{
+  padding: 0;
+}
+
+.footer-section p{
+  padding: 25px 70px;
+  font-size: 18px;
+}
+.footer-section ul{
+  padding: 15px 0 0px 220px;
+}
+.footer-section ul li{
+  margin-left: 8px;
+  list-style: none;
+  display: inline;
+}
+.footer-section ul li i{
+  background: #15a4fa;
+  width: 50px;
+  height: 50px;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  padding-top: 18px;
+  transition: all .3s ease-in-out;
+}
+.footer-section ul li i:hover{
+  background: #2d3950;
+}
+
+/* For Notebook Device */
+ @media (min-width: 768px) and (max-width: 998px){
+
+}
+
+/* For Tablet Device */
+ @media (min-width: 577px) and (max-width: 768px){
+
+}
+
+
+ /* For Mobile Device */
+  @media (min-width: 320px) and (max-width: 576px){
+  header{ display: block; margin: 0 auto;}
+  .banner-section{padding: 40px 0 20px;}
+  .banner-section h1{font-size: 70px; letter-spacing: 2px;}
+  .banner-section .titel-separetor{width: 80%;}
+  .banner-section .btn-call{margin: 25px auto;}
+  .banner-section .fa-angle-down{margin-top: 80px; font-size: 35px;}
+  .about-section{padding: 35px 0 0;}
+  .about-section h2 {font-size: 32px; margin-bottom: 15px;}
+  .about-section p {font-size: 14px; line-height: 24px; text-align: justify;}
+  .features-section{padding: 10px 0;}
+  .features-section img{width: 70px; height: 70px; margin: 15px auto;}
+  .features-section h3 {margin-bottom: 10px; font-size: 18px;}
+  .features-section p {font-size: 14px; padding: 0 55px;}
+  .portfolio-section{padding: 20px 0;}
+  .portfolio-section h2{font-size: 25px; margin-bottom: 10px;}
+  .portfolio-section p {font-size: 14px; margin-bottom: 15px;}
+  .item-box{margin: 5px 0;}
+  .support-section{padding: 20px 0;}
+  .support-section h2{font-size: 35px;}
+  .support-section p{font-size: 12px;}
+  .support-section .form-group {width: 382px;}
+  .support-section .checkbox {margin-top: 15px;}
+  .support-section .btn-send {margin: -20px 245px 0; padding: 10px 45px; display: block;}
+  .footer-section p{padding: 0 50px; text-align: center;}
+  .footer-section ul {padding: 5px 35px; text-align: center;}
+  .footer-section ul li i {width: 40px; height: 40px; padding-top: 12px; font-size: 17px;}
+  }
+
+
+  
+  
